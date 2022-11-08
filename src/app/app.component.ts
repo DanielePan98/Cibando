@@ -20,21 +20,21 @@ export class AppComponent {
       id: 1,
       label: "Spaghetti al sugo"
     },
-    // {
-    //   id: 2,
-    //   label: "tagliata di manzo"
-    // },
-    // {
-    //   id: 3,
-    //   label: "tiramisu classico"
-    // }
+    {
+      id: 2,
+      label: "tagliata di manzo"
+    },
+    {
+      id: 3,
+      label: "tiramisu classico"
+    }
   ];
 
   percorso = '../assets/images/carousel-';
 
   showNavigation() {
     if (this.images.length > 1) {
-     return true;
+      return true;
     }
     return false;
   }
